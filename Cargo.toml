@@ -10,7 +10,7 @@ license = "Apache-2.0"
 name = "ssz_types"
 
 [dependencies]
-tree_hash = { path = "/root/secure-signer/tree_hash/tree_hash" }
+tree_hash = { git = "https://github.com/PufferFinance/tree_hash" }
 serde = "1.0"
 serde_derive = "1.0"
 eth2_serde_utils = "0.1"
